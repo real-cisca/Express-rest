@@ -3,3 +3,6 @@
     display: flex;
     flex-direction: row;
 }
+.book-now{
+    color: rgba(104, 115, 99, 0.95);
+}
