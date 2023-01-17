@@ -2,7 +2,9 @@
     justify-content: center;
     display: flex;
     flex-direction: row;
+    color: ;
 }
 .book-now{
     color: rgba(104, 115, 99, 0.95);
+
 }
