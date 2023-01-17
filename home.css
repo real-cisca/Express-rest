@@ -1,10 +1,37 @@
-.nav-list{
+.header-ctn{
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    background-color: #4F594A;
+    padding: 0;
+    margin: 20px 20px;
+}
+.brand-name{
+    justify-content: center;
+}
+.nav-bar{
     justify-content: center;
     display: flex;
     flex-direction: row;
-    color: ;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+.nav-list > ul{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav-list > ul > a{
+text-decoration: none;
+color: #ffffff;
 }
 .book-now{
-    color: rgba(104, 115, 99, 0.95);
-
+    background-color: rgba(104, 115, 99, 0.95);
+    height: 20px;
+    width: 30px;
 }
