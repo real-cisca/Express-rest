@@ -1,18 +1,35 @@
 .header-ctn{
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    left: 0px;
+    top: 0px;
     justify-content: space-evenly;
-    display: flex;
-    flex-direction: row;
     background-color: #4F594A;
+    /*display: flex;
+     flex-direction: row;
     padding: 0;
-    margin: 20px 20px;
+    margin: 20px 20px;*/
 }
 .brand-name{
     justify-content: center;
+    position: absolute;
+    width: 112px;
+    height: 27px;
+    left: 140px;
+    top: 24px;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
 }
 .nav-bar{
     justify-content: center;
     display: flex;
     flex-direction: row;
+
 }
 .nav-list{
     display: flex;
@@ -34,4 +51,12 @@ color: #ffffff;
     background-color: rgba(104, 115, 99, 0.95);
     height: 20px;
     width: 30px;
+}
+.hero{
+    /*background-image: url(/assets/images/home/home-hero.png);*/
+    width: 1440px;
+    height: 643px;
+    left: 0px;
+    top: 0px;
+    /*background: url(.jpg), rgba(73, 77, 70, 0.61);*/
 }
