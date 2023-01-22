@@ -1,23 +1,27 @@
-.header-ctn{
-    position: absolute;
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
-    justify-content: space-evenly;
-    background-color: #4F594A;
-    /*display: flex;
-     flex-direction: row;
+body {
     padding: 0;
-    margin: 20px 20px;*/
+    margin: 0;
 }
+
+.header{
+    width: 100%;
+    height: 72px;
+    background-color: #4F594A;
+}
+
+.header-elements {
+    max-width: 926px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn {
+    
+}
+
 .brand-name{
     justify-content: center;
-    position: absolute;
-    width: 112px;
-    height: 27px;
-    left: 140px;
-    top: 24px;
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
@@ -25,16 +29,19 @@
     line-height: 27px;
     color: #ffffff;
 }
+
 .nav-bar{
     justify-content: center;
     display: flex;
     flex-direction: row;
 
 }
+
 .nav-list{
     display: flex;
     flex-direction: row;
 }
+
 .nav-list > ul{
     justify-content: space-around;
     display: flex;
@@ -43,15 +50,21 @@
     text-decoration: none;
     color: #ffffff;
 }
+
+.header__list_item {
+    margin-right: 30px;
+}
+
 .nav-list > ul > a{
 text-decoration: none;
 color: #ffffff;
 }
-.book-now{
+/* .book-now{
     background-color: rgba(104, 115, 99, 0.95);
     height: 20px;
     width: 30px;
-}
+} */
+
 .hero{
     /*background-image: url(/assets/images/home/home-hero.png);*/
     width: 1440px;
