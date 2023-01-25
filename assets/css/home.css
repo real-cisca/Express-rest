@@ -1,3 +1,4 @@
+/*header*/
 body {
     padding: 0;
     margin: 0;
@@ -8,7 +9,6 @@ body {
     height: 72px;
     background-color: #4F594A;
 }
-
 .header-elements {
     max-width: 926px;
     margin: 0 auto;
@@ -17,7 +17,13 @@ body {
 }
 
 .header-btn {
-    
+    width: 119px;
+    height: 40px;
+    top: 16px;
+    background: rgba(181, 191, 170, 0.93);
+    padding: 0;
+    position: relative;
+    border: 0;
 }
 
 .brand-name{
@@ -51,25 +57,105 @@ body {
     color: #ffffff;
 }
 
-.header__list_item {
+.header__list_item > a{
     margin-right: 30px;
+    color: #ffffff;
+    text-decoration: none;
 }
 
-.nav-list > ul > a{
-text-decoration: none;
-color: #ffffff;
-}
-/* .book-now{
-    background-color: rgba(104, 115, 99, 0.95);
-    height: 20px;
-    width: 30px;
-} */
+/*banner*/
 
 .hero{
-    /*background-image: url(/assets/images/home/home-hero.png);*/
-    width: 1440px;
+    background-image: url(/assets/images/home/home-hero.png);*/
+    width: 100%;
     height: 643px;
-    left: 0px;
+    position: relative;
+    /*left: 0px;
     top: 0px;
-    /*background: url(.jpg), rgba(73, 77, 70, 0.61);*/
+    background: url(.jpg), rgba(73, 77, 70, 0.61);*/
+}
+
+/*about us coloumn*/
+
+.about_us_column{
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    margin: auto;
+
+}
+.about_us_column_img{
+    width: 592px;
+    height: 531px;
+    margin: 246px;
+    margin-top: 123px;
+    margin-left: 140px;
+    margin-right: 100px;
+}
+.about_us_column_txt > h1 {
+    position: center;
+    width: 328px;
+    height: 93px;
+    left: 828px;
+    top: 766px;
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    font-style: normal;
+    color: #4F594A;
+    margin-top: 123px ;
+
+}
+.about_us_column_txt > p{
+    position: center;
+    width: 472px;
+    height: 400px;
+    margin-top: 38px;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+    font-style: normal;
+}
+.about_us_column_btn{
+    width: 177px;
+    height: 61px;
+    background: rgba(104, 115, 99, 0.95);
+    color: #ffffff;
+    border: 0;
+}
+
+/*our rooms column*/
+
+.our_rooms_column{
+    width: 1440px
+    height: 732px;
+    margin: auto;
+    
+}
+.our_rooms_column_txt{
+    width: 950px;
+    height: 30px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    color: #687363;
+    margin: auto ;
+    margin-top: 54px;
+    margin-bottom: 56px;
+}
+.our_rooms_column_images{
+    display: flex;
+    flex-direction: row;
+    margin: auto ;
+   
+    
+}
+.our_rooms_item{
+    width: 399px;
+    height: 373px;
+    margin-right: 21px;
 }
