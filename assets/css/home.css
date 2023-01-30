@@ -70,6 +70,10 @@ body {
     height: 743px;
     position: center;
     background-size: contain;
+
+    /* THESE DID THE TRICK */
+    display: flex;
+    align-items: center;
 }
 .hero-txt{
     margin: 0;
@@ -78,10 +82,13 @@ body {
     font-weight: 400;
     font-size: 50px;
     line-height: 67px;
-    width: 270px;
-    height: 67px;
+
+    /* VICTORY: There's no need to specify height and width for text... 
+        Let's it take it's space naturally. 
+
+        I've removed the width and height props that were specified below... 
+    */
     color: #ffffff;
-   
 }
 span{
     font-family: 'Playfair Display';
@@ -147,7 +154,6 @@ span{
 /*our rooms column*/
 
 .our_rooms_column{
-
     /* NO NEED FOR STYLING HERE YET */
 
     /* width: 926px;
@@ -202,8 +208,15 @@ span{
     margin: auto;
 }
 .our_rooms_column_title_ctn{
-    justify-content: center;
-    width: 100%;
+    /* VICTORY: 
+        YOU MISSED THIS 👇🏽...
+        CSS doesnt use a flex layout by default
+        so you need to specity it. 
+    */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .our_rooms_column_title{
     font-family: 'Lao Sangam MN';
