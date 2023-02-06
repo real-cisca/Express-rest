@@ -153,7 +153,7 @@ span{
 
 /*our rooms column*/
 
-.our_rooms_column{
+.our_rooms_column
     /* NO NEED FOR STYLING HERE YET */
 
     /* width: 926px;
@@ -162,7 +162,7 @@ span{
     margin: 0 auto;
     background-color: red; */
     
-}
+
 
 .our_rooms_column_txt{
     width: 1100px;
@@ -321,4 +321,34 @@ span{
 
 }
 /* testimonials column */
+.testimonials_column_header{
+    display: flex;
+    justify-content: center;
+}
+.testimonials_column_header{
+    font-family: 'Lao Sangam MN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #4F594A;
+    
+}
+.testimony_ctn{
+    display: flex;
+    justify-content: center;
+    margin-top: 139px;
+}
+.elipse{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    align-items: center;
 
+}
+.testimony{
+    width: 1160px;
+    height: 403px;
+    background: rgba(158, 166, 148, 0.22);
+
+}
