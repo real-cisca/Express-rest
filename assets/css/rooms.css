@@ -1,0 +1,85 @@
+/*header*/
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 72px;
+    background-color: #4F594A;
+}
+.header-elements {
+    max-width: 926px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn {
+    width: 119px;
+    height: 40px;
+    top: 16px;
+    background: rgba(181, 191, 170, 0.93);
+    padding: 0;
+    position: relative;
+    border: 0;
+}
+
+.brand-name{
+    justify-content: center;
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #ffffff;
+}
+
+.nav-bar{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list > ul{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header__list_item > a{
+    margin-right: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/*banner*/
+.hero{
+    background-image: url(/assets/images/rooms/rooms-hero.png);
+    width: 100%;
+    height: 743px;
+    position: center;
+    background-size: contain;
+
+    /* THESE DID THE TRICK */
+    display: flex;
+    align-items: center;
+}
+.hero-txt{
+    margin: 0;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 67px;
+    color: #ffffff;
+}
