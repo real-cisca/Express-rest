@@ -344,11 +344,68 @@ span{
     border-radius: 50%;
     background: #D9D9D9;
     align-items: center;
-
+    position: absolute;
+    top: -80px;
 }
 .testimony{
     width: 1160px;
     height: 403px;
     background: rgba(158, 166, 148, 0.22);
+    position: relative;
+    display: flex;
+    justify-content: center;
+} 
+.testimony_header{
+    font-family: 'Lao Sangam MN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #CF2626;
+    text-align: center;
+    margin-top: 80px;
+}
+.rating_ctn{
+    display: flex;
+    flex-direction: row;
+}
+/* enquiries */
+.enquiries_ctn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 100%;
+    height: 96px;
+    background: rgba(181, 191, 170, 0.99);
+    margin-top: 100px;
+}
+.enquiries_btn{
+    width: 182px;
+    height: 62px;
+    color: #ffffff;
+    border: 0;
+    background: rgba(104, 115, 99, 0.95); 
+}
+.enquiries_txt{
+    color: #ffffff;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0.12em;
+    margin: 0;
+}
 
+/* footer */
+.footer_ctn{
+    background: #4F594A;
+    width: 100%;
+    height: 433px;
+    display: flex;
+    flex-direction: row;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
 }
