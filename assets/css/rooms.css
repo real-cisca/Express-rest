@@ -69,8 +69,6 @@ body {
     height: 743px;
     position: center;
     background-size: contain;
-
-    /* THESE DID THE TRICK */
     display: flex;
     align-items: center;
 }
